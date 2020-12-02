@@ -1,0 +1,22 @@
+{
+  "name": "advent-of-code-day-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc && node dist/index.js",
+    "dev": "nodemon -e ts --exec \"npm run compile\"",
+    "start": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "ts-loader": "^6.0.2",
+    "ts-node": "3.3.0"
+  }
+}
